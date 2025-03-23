@@ -1,0 +1,20 @@
+.home {
+    padding: 0 5rem;
+  
+    &__banner-text {
+      font-size: 2.5rem;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    }
+  
+    &__cards {
+      background-color: #f6f6f6;
+      border-radius: 25px;
+      padding: 3rem 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+  

@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1240px;
+    margin: auto;
+  
+    &__logo {
+      height: 50px;
+    }
+  
+    &__nav {
+      display: flex;
+      gap: 2rem;
+    }
+  
+    &__link {
+      text-decoration: none;
+      color: #ff6060;
+      font-weight: 500;
+  
+      &.active {
+        text-decoration: underline;
+      }
+    }
+  }
+  

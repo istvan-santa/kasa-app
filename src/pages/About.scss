@@ -11,3 +11,13 @@
     }
   }
   
+  @media screen and (max-width: 768px) {
+    .about {
+      padding: 0 1rem;
+  
+      &__collapses {
+        gap: 1rem;
+      }
+    }
+  }
+  

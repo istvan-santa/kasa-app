@@ -4,12 +4,13 @@
     &__header {
       background-color: #ff6060;
       color: white;
-      padding: 1rem;
+      padding: 0.8rem 1rem;
       border-radius: 5px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       cursor: pointer;
+      font-size: 0.8rem;
     }
   
     &__arrow {

@@ -1,28 +1,50 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+  max-width: 1240px;
+  margin: 0 auto;
+
+  &__logo {
+    height: 50px;
+  }
+
+  &__nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    max-width: 1240px;
-    margin: auto;
-  
-    &__logo {
-      height: 50px;
+    gap: 2rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+    &.active {
+      text-decoration: underline;
     }
-  
-    &__nav {
-      display: flex;
-      gap: 2rem;
-    }
-  
-    &__link {
-      text-decoration: none;
+
+    &:hover {
       color: #ff6060;
-      font-weight: 500;
-  
-      &.active {
-        text-decoration: underline;
-      }
     }
   }
-  
+
+  // ✅ Partie responsive
+  @media screen and (max-width: 768px) {
+    flex-direction: row;
+    padding: 1.5rem;
+
+    &__logo {
+      height: 40px;
+    }
+
+    &__nav {
+      gap: 1.2rem;
+    }
+
+    &__link {
+      font-size: 1rem;
+    }
+  }
+}

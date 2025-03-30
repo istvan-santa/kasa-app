@@ -14,3 +14,13 @@
     }
   }
   
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 2rem 1rem;
+  
+      &__text {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  

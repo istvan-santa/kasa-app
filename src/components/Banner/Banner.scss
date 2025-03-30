@@ -29,4 +29,16 @@
       padding: 0 1rem;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .banner {
+      height: 150px;
+  
+      &__overlay {
+        font-size: 1.2rem;
+        padding: 0 0.5rem;
+      }
+    }
+  }
+  
   

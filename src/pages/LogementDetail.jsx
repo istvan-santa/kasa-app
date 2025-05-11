@@ -2,7 +2,7 @@ import Slideshow from "../components/Slideshow/Slideshow";
 import Collapse from "../components/Collapse/Collapse";
 import { useParams, Navigate } from "react-router-dom";
 import logements from "../data/logements.json";
-import "./LogementDetail.scss"; // à créer
+import "./LogementDetail.scss";
 
 function LogementDetail() {
   const { id } = useParams();

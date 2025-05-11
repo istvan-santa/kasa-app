@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Collapse.scss";
 
 function Collapse({ title, children }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const toggleCollapse = () => {
     setIsOpen((prev) => !prev);

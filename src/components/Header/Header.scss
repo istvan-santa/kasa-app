@@ -18,7 +18,6 @@
   &__link {
     text-decoration: none;
     color: black;
-    font-weight: bold;
     font-size: 1.1rem;
 
     &.active {
@@ -30,7 +29,6 @@
     }
   }
 
-  // ✅ Partie responsive
   @media screen and (max-width: 768px) {
     flex-direction: row;
     padding: 1.5rem;
